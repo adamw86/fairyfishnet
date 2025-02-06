@@ -151,6 +151,7 @@ NNUE_ALIAS = {
 required_variants = set([
     "ataxx",
     "chess",
+    "chess2",
     "crazyhouse",
     "placement",
     "atomic",
@@ -2090,6 +2091,18 @@ capturesToHand = true
 startFen = rnbqkcabnr/pppppppppp/10/10/10/10/PPPPPPPPPP/RNBQKCABNR[] w KQkq - 0 1
 pieceDrops = true
 capturesToHand = true
+
+                               
+# Chess²
+# A game
+[chess2:chess]
+startFen = rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBTKBNR w KQkq - 0 1
+#pieceDrops = true
+#capturesToHand = false
+customPiece1 = t:WNB
+customPiece2 = d:FRpmRmN
+customPiece3 = v:ADNWfF
+promotionPieceTypes = nbrtq
 
 [gorogoroplus:gorogoro]
 startFen = sgkgs/5/1ppp1/1PPP1/5/SGKGS[LNln] w 0 1
